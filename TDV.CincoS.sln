@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDV.CincoS.WepApis", "TDV.CincoS.WepApis\TDV.CincoS.WepApis.csproj", "{28E7D105-58E2-4100-ADF4-1294DCD06177}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.EntityLayer", "01.EntityLayer", "{4E90BFC1-0A29-4A94-8928-07E458E6F1CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.DataLayer", "02.DataLayer", "{2EF6DAFC-0046-46DE-9B77-0F905B7DA630}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.BusinessLayer", "03.BusinessLayer", "{2FB06841-4C9A-4316-98CC-C98FB52BF7EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDV.CincoS.EntityLayer", "TDV.CincoS.EntityLayer\TDV.CincoS.EntityLayer.csproj", "{C286EDE2-36A4-489E-A8B5-72096DD00CC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDV.CincoS.DataLayer", "TDV.CincoS.DataLayer\TDV.CincoS.DataLayer.csproj", "{986714FF-DB62-45F9-8A2E-4ACB84C966D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28E7D105-58E2-4100-ADF4-1294DCD06177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E7D105-58E2-4100-ADF4-1294DCD06177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E7D105-58E2-4100-ADF4-1294DCD06177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E7D105-58E2-4100-ADF4-1294DCD06177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C286EDE2-36A4-489E-A8B5-72096DD00CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C286EDE2-36A4-489E-A8B5-72096DD00CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C286EDE2-36A4-489E-A8B5-72096DD00CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C286EDE2-36A4-489E-A8B5-72096DD00CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986714FF-DB62-45F9-8A2E-4ACB84C966D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986714FF-DB62-45F9-8A2E-4ACB84C966D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986714FF-DB62-45F9-8A2E-4ACB84C966D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986714FF-DB62-45F9-8A2E-4ACB84C966D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28E7D105-58E2-4100-ADF4-1294DCD06177} = {2FB06841-4C9A-4316-98CC-C98FB52BF7EA}
+		{C286EDE2-36A4-489E-A8B5-72096DD00CC5} = {4E90BFC1-0A29-4A94-8928-07E458E6F1CC}
+		{986714FF-DB62-45F9-8A2E-4ACB84C966D8} = {2EF6DAFC-0046-46DE-9B77-0F905B7DA630}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FB785F0-31B0-4ED8-9DF8-A11949F69C76}
+	EndGlobalSection
+EndGlobal
